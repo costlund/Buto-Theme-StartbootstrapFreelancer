@@ -1,0 +1,62 @@
+settings:
+  path: '1/innerHTML/1/innerHTML'
+content:
+  -
+    type: text
+    text: '<!DOCTYPE html>'
+  -
+    type: html
+    innerHTML:
+      -
+        type: head
+        innerHTML:
+          -
+            type: meta
+            attribute:
+              charset: utf-8
+          -
+            type: meta
+            attribute:
+              name: viewport
+              content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+          -
+            type: meta
+            attribute:
+              name: description
+              content: ''
+          -
+            type: meta
+            attribute:
+              name: author
+              content: ''
+          -
+            type: title
+            innerHTML: 'Freelancer - Start Bootstrap Theme'
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/freelancer/vendor/fontawesome-free/css/all.min.css
+              rel: stylesheet
+              type: text/css
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Montserrat:400,700'
+              rel: stylesheet
+              type: text/css
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic'
+              rel: stylesheet
+              type: text/css
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/freelancer/css/freelancer.min.css
+              rel: stylesheet
+      -
+        type: body
+        attribute:
+          id: page-top
+        innerHTML: 'body...'

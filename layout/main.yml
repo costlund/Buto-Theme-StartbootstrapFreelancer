@@ -1,0 +1,53 @@
+settings:
+  path: '1/innerHTML'
+content:
+  -
+    type: nav
+    attribute:
+      class: 'navbar navbar-expand-lg bg-secondary text-uppercase fixed-top'
+      id: mainNav
+    innerHTML: yml:/theme/[theme]/element/navbar.yml
+  -
+    type: div
+    innerHTML: 'main...'
+  -
+    type: footer
+    attribute:
+      class: 'footer text-center'
+    innerHTML: yml:/theme/[theme]/element/footer.yml
+  -
+    type: section
+    attribute:
+      class: 'copyright py-4 text-center text-white'
+    innerHTML: yml:/theme/[theme]/element/copyright_section.yml
+  -
+    type: div
+    attribute:
+      class: 'scroll-to-top d-lg-none position-fixed '
+    innerHTML: yml:/theme/[theme]/element/scroll_to_top_button.yml
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/vendor/jquery/jquery.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/vendor/bootstrap/js/bootstrap.bundle.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/vendor/jquery-easing/jquery.easing.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/js/jqBootstrapValidation.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/js/contact_me.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/freelancer/js/freelancer.js
+
+

@@ -1,0 +1,77 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: a
+      attribute:
+        class: 'navbar-brand js-scroll-trigger'
+        href: '#page-top'
+      innerHTML: 'Start Bootstrap'
+    -
+      type: button
+      attribute:
+        class: 'navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded'
+        type: button
+        data-toggle: collapse
+        data-target: '#navbarResponsive'
+        aria-controls: navbarResponsive
+        aria-expanded: 'false'
+        aria-label: 'Toggle navigation'
+      innerHTML: 'Menu        '
+    -
+      type: div
+      attribute:
+        class: 'collapse navbar-collapse'
+        id: navbarResponsive
+      innerHTML:
+        -
+          type: ul
+          attribute:
+            class: 'navbar-nav ml-auto'
+          innerHTML:
+            -
+              type: li
+              attribute:
+                class: 'nav-item mx-0 mx-lg-1'
+              innerHTML:
+                -
+                  type: a
+                  attribute:
+                    class: 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
+                    href: '#portfolio'
+                  innerHTML: Portfolio
+            -
+              type: li
+              attribute:
+                class: 'nav-item mx-0 mx-lg-1'
+              innerHTML:
+                -
+                  type: a
+                  attribute:
+                    class: 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
+                    href: '#about'
+                  innerHTML: About
+            -
+              type: li
+              attribute:
+                class: 'nav-item mx-0 mx-lg-1'
+              innerHTML:
+                -
+                  type: a
+                  attribute:
+                    class: 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
+                    href: '#contact'
+                  innerHTML: Contact
+            -
+              type: li
+              attribute:
+                class: 'nav-item mx-0 mx-lg-1'
+              innerHTML:
+                -
+                  type: a
+                  attribute:
+                    class: 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
+                    href: '/page_1'
+                  innerHTML: Page 1

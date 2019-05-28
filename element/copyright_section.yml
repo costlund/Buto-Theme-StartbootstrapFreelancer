@@ -1,0 +1,8 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: small
+      innerHTML: 'Copyright &copy; Your Website 2019'

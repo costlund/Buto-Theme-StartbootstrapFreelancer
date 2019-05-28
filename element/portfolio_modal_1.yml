@@ -1,0 +1,93 @@
+-
+  type: div
+  attribute:
+    class: 'modal-dialog modal-xl'
+    role: document
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: modal-content
+      innerHTML:
+        -
+          type: button
+          attribute:
+            type: button
+            class: close
+            data-dismiss: modal
+            aria-label: Close
+          innerHTML:
+            -
+              type: span
+              attribute:
+                aria-hidden: 'true'
+              innerHTML:
+                -
+                  type: i
+                  attribute:
+                    class: 'fas fa-times'
+        -
+          type: div
+          attribute:
+            class: 'modal-body text-center'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: container
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'row justify-content-center'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: col-lg-8
+                      innerHTML:
+                        -
+                          type: h2
+                          attribute:
+                            class: 'portfolio-modal-title text-secondary text-uppercase mb-0'
+                          innerHTML: 'Log Cabin'
+                        -
+                          type: div
+                          attribute:
+                            class: divider-custom
+                          innerHTML:
+                            -
+                              type: div
+                              attribute:
+                                class: divider-custom-line
+                            -
+                              type: div
+                              attribute:
+                                class: divider-custom-icon
+                              innerHTML:
+                                -
+                                  type: i
+                                  attribute:
+                                    class: 'fas fa-star'
+                            -
+                              type: div
+                              attribute:
+                                class: divider-custom-line
+                        -
+                          type: img
+                          attribute:
+                            class: 'img-fluid rounded mb-5'
+                            src: /theme/startbootstrap/freelancer/img/portfolio/cabin.png
+                            alt: ''
+                        -
+                          type: p
+                          attribute:
+                            class: mb-5
+                          innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.'
+                        -
+                          type: button
+                          attribute:
+                            class: 'btn btn-primary'
+                            href: '#'
+                            data-dismiss: modal
+                          innerHTML: 'Close Window                '

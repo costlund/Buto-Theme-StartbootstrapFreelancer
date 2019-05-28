@@ -1,0 +1,43 @@
+-
+  type: div
+  attribute:
+    class: 'container d-flex align-items-center flex-column'
+  innerHTML:
+    -
+      type: img
+      attribute:
+        class: 'masthead-avatar mb-5'
+        src: img/avataaars.svg
+        alt: ''
+    -
+      type: h1
+      attribute:
+        class: 'masthead-heading text-uppercase mb-0'
+      innerHTML: 'Start Bootstrap'
+    -
+      type: div
+      attribute:
+        class: 'divider-custom divider-light'
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+        -
+          type: div
+          attribute:
+            class: divider-custom-icon
+          innerHTML:
+            -
+              type: i
+              attribute:
+                class: 'fas fa-star'
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+    -
+      type: p
+      attribute:
+        class: 'masthead-subheading font-weight-light mb-0'
+      innerHTML: 'Graphic Artist - Web Designer - Illustrator'

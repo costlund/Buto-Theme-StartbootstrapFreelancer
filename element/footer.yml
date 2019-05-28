@@ -1,0 +1,90 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: row
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: 'col-lg-4 mb-5 mb-lg-0'
+          innerHTML:
+            -
+              type: h4
+              attribute:
+                class: 'text-uppercase mb-4'
+              innerHTML: Location
+            -
+              type: p
+              attribute:
+                class: 'lead mb-0'
+              innerHTML: '2215 John Daniel Drive            Clark, MO 65243'
+        -
+          type: div
+          attribute:
+            class: 'col-lg-4 mb-5 mb-lg-0'
+          innerHTML:
+            -
+              type: h4
+              attribute:
+                class: 'text-uppercase mb-4'
+              innerHTML: 'Around the Web'
+            -
+              type: a
+              attribute:
+                class: 'btn btn-outline-light btn-social mx-1'
+                href: '#'
+              innerHTML:
+                -
+                  type: i
+                  attribute:
+                    class: 'fab fa-fw fa-facebook-f'
+            -
+              type: a
+              attribute:
+                class: 'btn btn-outline-light btn-social mx-1'
+                href: '#'
+              innerHTML:
+                -
+                  type: i
+                  attribute:
+                    class: 'fab fa-fw fa-twitter'
+            -
+              type: a
+              attribute:
+                class: 'btn btn-outline-light btn-social mx-1'
+                href: '#'
+              innerHTML:
+                -
+                  type: i
+                  attribute:
+                    class: 'fab fa-fw fa-linkedin-in'
+            -
+              type: a
+              attribute:
+                class: 'btn btn-outline-light btn-social mx-1'
+                href: '#'
+              innerHTML:
+                -
+                  type: i
+                  attribute:
+                    class: 'fab fa-fw fa-dribbble'
+        -
+          type: div
+          attribute:
+            class: col-lg-4
+          innerHTML:
+            -
+              type: h4
+              attribute:
+                class: 'text-uppercase mb-4'
+              innerHTML: 'About Freelancer'
+            -
+              type: p
+              attribute:
+                class: 'lead mb-0'
+              innerHTML: 'Freelance is a free to use, MIT licensed Bootstrap theme created by            .'

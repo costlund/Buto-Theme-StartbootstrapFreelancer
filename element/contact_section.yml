@@ -1,0 +1,171 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: h2
+      attribute:
+        class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
+      innerHTML: 'Contact Me'
+    -
+      type: div
+      attribute:
+        class: divider-custom
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+        -
+          type: div
+          attribute:
+            class: divider-custom-icon
+          innerHTML:
+            -
+              type: i
+              attribute:
+                class: 'fas fa-star'
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+    -
+      type: div
+      attribute:
+        class: row
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: 'col-lg-8 mx-auto'
+          innerHTML:
+            -
+              type: form
+              attribute:
+                name: sentMessage
+                id: contactForm
+                novalidate: novalidate
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: control-group
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'form-group floating-label-form-group controls mb-0 pb-2'
+                      innerHTML:
+                        -
+                          type: label
+                          innerHTML: Name
+                        -
+                          type: input
+                          attribute:
+                            class: form-control
+                            id: name
+                            type: text
+                            placeholder: Name
+                            required: required
+                            data-validation-required-message: 'Please enter your name.'
+                        -
+                          type: p
+                          attribute:
+                            class: 'help-block text-danger'
+                -
+                  type: div
+                  attribute:
+                    class: control-group
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'form-group floating-label-form-group controls mb-0 pb-2'
+                      innerHTML:
+                        -
+                          type: label
+                          innerHTML: 'Email Address'
+                        -
+                          type: input
+                          attribute:
+                            class: form-control
+                            id: email
+                            type: email
+                            placeholder: 'Email Address'
+                            required: required
+                            data-validation-required-message: 'Please enter your email address.'
+                        -
+                          type: p
+                          attribute:
+                            class: 'help-block text-danger'
+                -
+                  type: div
+                  attribute:
+                    class: control-group
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'form-group floating-label-form-group controls mb-0 pb-2'
+                      innerHTML:
+                        -
+                          type: label
+                          innerHTML: 'Phone Number'
+                        -
+                          type: input
+                          attribute:
+                            class: form-control
+                            id: phone
+                            type: tel
+                            placeholder: 'Phone Number'
+                            required: required
+                            data-validation-required-message: 'Please enter your phone number.'
+                        -
+                          type: p
+                          attribute:
+                            class: 'help-block text-danger'
+                -
+                  type: div
+                  attribute:
+                    class: control-group
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'form-group floating-label-form-group controls mb-0 pb-2'
+                      innerHTML:
+                        -
+                          type: label
+                          innerHTML: Message
+                        -
+                          type: textarea
+                          attribute:
+                            class: form-control
+                            id: message
+                            rows: '5'
+                            placeholder: Message
+                            required: required
+                            data-validation-required-message: 'Please enter a message.'
+                        -
+                          type: p
+                          attribute:
+                            class: 'help-block text-danger'
+                -
+                  type: br
+                -
+                  type: div
+                  attribute:
+                    id: success
+                -
+                  type: div
+                  attribute:
+                    class: form-group
+                  innerHTML:
+                    -
+                      type: button
+                      attribute:
+                        type: submit
+                        class: 'btn btn-primary btn-xl'
+                        id: sendMessageButton
+                      innerHTML: Send

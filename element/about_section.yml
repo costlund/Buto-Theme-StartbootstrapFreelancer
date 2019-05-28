@@ -1,0 +1,68 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: h2
+      attribute:
+        class: 'page-section-heading text-center text-uppercase text-white'
+      innerHTML: About
+    -
+      type: div
+      attribute:
+        class: 'divider-custom divider-light'
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+        -
+          type: div
+          attribute:
+            class: divider-custom-icon
+          innerHTML:
+            -
+              type: i
+              attribute:
+                class: 'fas fa-star'
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+    -
+      type: div
+      attribute:
+        class: row
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: 'col-lg-4 ml-auto'
+          innerHTML:
+            -
+              type: p
+              attribute:
+                class: lead
+              innerHTML: 'Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.'
+        -
+          type: div
+          attribute:
+            class: 'col-lg-4 mr-auto'
+          innerHTML:
+            -
+              type: p
+              attribute:
+                class: lead
+              innerHTML: 'You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!'
+    -
+      type: div
+      attribute:
+        class: 'text-center mt-4'
+      innerHTML:
+        -
+          type: a
+          attribute:
+            class: 'btn btn-xl btn-outline-light'
+            href: 'https://startbootstrap.com/themes/freelancer/'
+          innerHTML: 'Free Download!        '

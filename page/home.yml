@@ -1,0 +1,89 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: header
+    attribute:
+      class: 'masthead bg-primary text-white text-center'
+    innerHTML: yml:/theme/[theme]/element/masthead.yml
+  -
+    type: section
+    attribute:
+      class: 'page-section portfolio'
+      id: portfolio
+    innerHTML: yml:/theme/[theme]/element/portfolio_section.yml
+  -
+    type: section
+    attribute:
+      class: 'page-section bg-primary text-white mb-0'
+      id: about
+    innerHTML: yml:/theme/[theme]/element/about_section.yml
+  -
+    type: section
+    attribute:
+      class: page-section
+      id: contact
+    innerHTML: yml:/theme/[theme]/element/contact_section.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal1
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal1Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_1.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal2
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal2Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_2.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal3
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal3Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_3.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal4
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal4Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_4.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal5
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal5Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_5.yml
+  -
+    type: div
+    attribute:
+      class: 'portfolio-modal modal fade'
+      id: portfolioModal6
+      tabindex: '-1'
+      role: dialog
+      aria-labelledby: portfolioModal6Label
+      aria-hidden: 'true'
+    innerHTML: yml:/theme/[theme]/element/portfolio_modal_6.yml
+

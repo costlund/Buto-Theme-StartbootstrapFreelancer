@@ -1,0 +1,229 @@
+-
+  type: div
+  attribute:
+    class: container
+  innerHTML:
+    -
+      type: h2
+      attribute:
+        class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
+      innerHTML: Portfolio
+    -
+      type: div
+      attribute:
+        class: divider-custom
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+        -
+          type: div
+          attribute:
+            class: divider-custom-icon
+          innerHTML:
+            -
+              type: i
+              attribute:
+                class: 'fas fa-star'
+        -
+          type: div
+          attribute:
+            class: divider-custom-line
+    -
+      type: div
+      attribute:
+        class: row
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal1'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/cabin.png
+                    alt: ''
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal2'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/cake.png
+                    alt: ''
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal3'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/circus.png
+                    alt: ''
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal4'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/game.png
+                    alt: ''
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal5'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/safe.png
+                    alt: ''
+        -
+          type: div
+          attribute:
+            class: 'col-md-6 col-lg-4'
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: 'portfolio-item mx-auto'
+                data-toggle: modal
+                data-target: '#portfolioModal6'
+              innerHTML:
+                -
+                  type: div
+                  attribute:
+                    class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                  innerHTML:
+                    -
+                      type: div
+                      attribute:
+                        class: 'portfolio-item-caption-content text-center text-white'
+                      innerHTML:
+                        -
+                          type: i
+                          attribute:
+                            class: 'fas fa-plus fa-3x'
+                -
+                  type: img
+                  attribute:
+                    class: img-fluid
+                    src: /theme/startbootstrap/freelancer/img/portfolio/submarine.png
+                    alt: ''
