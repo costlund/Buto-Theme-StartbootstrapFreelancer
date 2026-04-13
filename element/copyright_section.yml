@@ -1,0 +1,13 @@
+-
+  type: div
+  attribute:
+    class: 'copyright py-4 text-center text-white'
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: container
+      innerHTML:
+        -
+          type: small
+          innerHTML: 'Copyright &copy; Your Website 2023'

@@ -1,0 +1,15 @@
+settings:
+  layout:
+    - html
+    - main
+  title: Freelancer - Start Bootstrap Theme
+content:
+  -
+    type: div
+    innerHTML: yml:/theme/startbootstrap/freelancer/element/portfolio_section.yml
+  -
+    type: div
+    innerHTML: yml:/theme/startbootstrap/freelancer/element/about_section.yml
+  -
+    type: div
+    innerHTML: yml:/theme/startbootstrap/freelancer/element/contact_section.yml

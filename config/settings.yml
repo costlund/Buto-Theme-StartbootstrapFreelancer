@@ -1,0 +1,9 @@
+default_class: d
+default_method: home
+plugin_modules:
+  d:
+    plugin: 'wf/doc'
+plugin:
+  theme:
+    include:
+      enabled: true

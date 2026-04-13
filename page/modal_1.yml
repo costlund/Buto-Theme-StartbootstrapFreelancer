@@ -1,0 +1,4 @@
+content:
+  -
+    type: div
+    innerHTML: yml:/theme/startbootstrap/freelancer/element/modal_1.yml
