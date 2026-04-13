@@ -32,4 +32,6 @@ content:
               <script src="/theme/startbootstrap/freelancer/js/scripts.js"></script>
       -
         type: body
+        attribute:
+          id: page-top
         innerHTML: 'body...'
