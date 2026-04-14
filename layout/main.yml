@@ -1,18 +1,10 @@
 settings:
   path: '2/innerHTML'
 content:
-  -
-    type: div
-    innerHTML: yml:/theme/startbootstrap/freelancer/element/navigation.yml
-  -
-    type: div
-    innerHTML: yml:/theme/startbootstrap/freelancer/element/masthead.yml
+  - yml:/theme/startbootstrap/freelancer/element/navigation.yml
+  - yml:/theme/startbootstrap/freelancer/element/masthead.yml
   -
     type: div
     innerHTML: content...
-  -
-    type: div
-    innerHTML: yml:/theme/startbootstrap/freelancer/element/footer.yml
-  -
-    type: div
-    innerHTML: yml:/theme/startbootstrap/freelancer/element/copyright_section.yml
+  - yml:/theme/startbootstrap/freelancer/element/footer.yml
+  - yml:/theme/startbootstrap/freelancer/element/copyright_section.yml

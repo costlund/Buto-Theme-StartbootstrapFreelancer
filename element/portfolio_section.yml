@@ -1,229 +1,228 @@
--
-  type: section
-  attribute:
-    class: 'page-section portfolio'
-    id: portfolio
-  innerHTML:
-    -
-      type: div
-      attribute:
-        class: container
-      innerHTML:
-        -
-          type: h2
-          attribute:
-            class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
-          innerHTML: Portfolio
-        -
-          type: div
-          attribute:
-            class: divider-custom
-          innerHTML:
-            -
-              type: div
-              attribute:
-                class: divider-custom-line
-            -
-              type: div
-              attribute:
-                class: divider-custom-icon
-              innerHTML:
-                -
-                  type: i
-                  attribute:
-                    class: 'fas fa-star'
-            -
-              type: div
-              attribute:
-                class: divider-custom-line
-        -
-          type: div
-          attribute:
-            class: 'row justify-content-center'
-          innerHTML:
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4 mb-5'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Log Cabin', url: '/modal_1'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/cabin.png
-                        alt: ...
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4 mb-5'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Tasty Cake', url: '/modal_2'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/cake.png
-                        alt: ...
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4 mb-5'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Circus Tent', url: '/modal_3'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/circus.png
-                        alt: ...
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4 mb-5 mb-lg-0'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Controller', url: '/modal_4'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/game.png
-                        alt: ...
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4 mb-5 mb-md-0'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Locked Safe', url: '/modal_5'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/safe.png
-                        alt: ...
-            -
-              type: div
-              attribute:
-                class: 'col-md-6 col-lg-4'
-              innerHTML:
-                -
-                  type: div
-                  attribute:
-                    class: 'portfolio-item mx-auto'
-                    onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Submarine', url: '/modal_6'})"
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'portfolio-item-caption-content text-center text-white'
-                          innerHTML:
-                            -
-                              type: i
-                              attribute:
-                                class: 'fas fa-plus fa-3x'
-                    -
-                      type: img
-                      attribute:
-                        class: img-fluid
-                        src: /theme/startbootstrap/freelancer/assets/img/portfolio/submarine.png
-                        alt: ...
+type: section
+attribute:
+  class: 'page-section portfolio'
+  id: portfolio
+innerHTML:
+  -
+    type: div
+    attribute:
+      class: container
+    innerHTML:
+      -
+        type: h2
+        attribute:
+          class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
+        innerHTML: Portfolio
+      -
+        type: div
+        attribute:
+          class: divider-custom
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: divider-custom-line
+          -
+            type: div
+            attribute:
+              class: divider-custom-icon
+            innerHTML:
+              -
+                type: i
+                attribute:
+                  class: 'fas fa-star'
+          -
+            type: div
+            attribute:
+              class: divider-custom-line
+      -
+        type: div
+        attribute:
+          class: 'row justify-content-center'
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4 mb-5'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Log Cabin', url: '/modal_1'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/cabin.png
+                      alt: ...
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4 mb-5'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Tasty Cake', url: '/modal_2'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/cake.png
+                      alt: ...
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4 mb-5'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Circus Tent', url: '/modal_3'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/circus.png
+                      alt: ...
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4 mb-5 mb-lg-0'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Controller', url: '/modal_4'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/game.png
+                      alt: ...
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4 mb-5 mb-md-0'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Locked Safe', url: '/modal_5'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/safe.png
+                      alt: ...
+          -
+            type: div
+            attribute:
+              class: 'col-md-6 col-lg-4'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'portfolio-item mx-auto'
+                  onclick: "PluginWfBootstrapjs.modal({id: 'modal_1', label: 'Submarine', url: '/modal_6'})"
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'portfolio-item-caption-content text-center text-white'
+                        innerHTML:
+                          -
+                            type: i
+                            attribute:
+                              class: 'fas fa-plus fa-3x'
+                  -
+                    type: img
+                    attribute:
+                      class: img-fluid
+                      src: /theme/startbootstrap/freelancer/assets/img/portfolio/submarine.png
+                      alt: ...

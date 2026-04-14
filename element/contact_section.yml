@@ -1,186 +1,185 @@
--
-  type: section
-  attribute:
-    class: page-section
-    id: contact
-  innerHTML:
-    -
-      type: div
-      attribute:
-        class: container
-      innerHTML:
-        -
-          type: h2
-          attribute:
-            class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
-          innerHTML: 'Contact Me'
-        -
-          type: div
-          attribute:
-            class: divider-custom
-          innerHTML:
-            -
-              type: div
-              attribute:
-                class: divider-custom-line
-            -
-              type: div
-              attribute:
-                class: divider-custom-icon
-              innerHTML:
-                -
-                  type: i
-                  attribute:
-                    class: 'fas fa-star'
-            -
-              type: div
-              attribute:
-                class: divider-custom-line
-        -
-          type: div
-          attribute:
-            class: 'row justify-content-center'
-          innerHTML:
-            -
-              type: div
-              attribute:
-                class: 'col-lg-8 col-xl-7'
-              innerHTML:
-                -
-                  type: form
-                  attribute:
-                    id: contactForm
-                    data-sb-form-api-token: API_TOKEN
-                  innerHTML:
-                    -
-                      type: div
-                      attribute:
-                        class: 'form-floating mb-3'
-                      innerHTML:
-                        -
-                          type: input
-                          attribute:
-                            class: form-control
-                            id: name
-                            type: text
-                            placeholder: 'Enter your name...'
-                            data-sb-validations: required
-                        -
-                          type: label
-                          attribute:
-                            for: name
-                          innerHTML: 'Full name'
-                        -
-                          type: div
-                          attribute:
-                            class: invalid-feedback
-                            data-sb-feedback: 'name:required'
-                          innerHTML: 'A name is required.'
-                    -
-                      type: div
-                      attribute:
-                        class: 'form-floating mb-3'
-                      innerHTML:
-                        -
-                          type: input
-                          attribute:
-                            class: form-control
-                            id: email
-                            type: email
-                            placeholder: name@example.com
-                            data-sb-validations: 'required,email'
-                        -
-                          type: label
-                          attribute:
-                            for: email
-                          innerHTML: 'Email address'
-                        -
-                          type: div
-                          attribute:
-                            class: invalid-feedback
-                            data-sb-feedback: 'email:required'
-                          innerHTML: 'An email is required.'
-                        -
-                          type: div
-                          attribute:
-                            class: invalid-feedback
-                            data-sb-feedback: 'email:email'
-                          innerHTML: 'Email is not valid.'
-                    -
-                      type: div
-                      attribute:
-                        class: 'form-floating mb-3'
-                      innerHTML:
-                        -
-                          type: input
-                          attribute:
-                            class: form-control
-                            id: phone
-                            type: tel
-                            placeholder: '(123) 456-7890'
-                            data-sb-validations: required
-                        -
-                          type: label
-                          attribute:
-                            for: phone
-                          innerHTML: 'Phone number'
-                        -
-                          type: div
-                          attribute:
-                            class: invalid-feedback
-                            data-sb-feedback: 'phone:required'
-                          innerHTML: 'A phone number is required.'
-                    -
-                      type: div
-                      attribute:
-                        class: 'form-floating mb-3'
-                      innerHTML:
-                        -
-                          type: textarea
-                          attribute:
-                            class: form-control
-                            id: message
-                            type: text
-                            placeholder: 'Enter your message here...'
-                            style: 'height: 10rem'
-                            data-sb-validations: required
-                        -
-                          type: label
-                          attribute:
-                            for: message
-                          innerHTML: Message
-                        -
-                          type: div
-                          attribute:
-                            class: invalid-feedback
-                            data-sb-feedback: 'message:required'
-                          innerHTML: 'A message is required.'
-                    -
-                      type: div
-                      attribute:
-                        class: d-none
-                        id: submitSuccessMessage
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'text-center mb-3'
-                          innerHTML: 'To activate this form, sign up at                                    '
-                    -
-                      type: div
-                      attribute:
-                        class: d-none
-                        id: submitErrorMessage
-                      innerHTML:
-                        -
-                          type: div
-                          attribute:
-                            class: 'text-center text-danger mb-3'
-                          innerHTML: 'Error sending message!'
-                    -
-                      type: button
-                      attribute:
-                        class: 'btn btn-primary btn-xl disabled'
-                        id: submitButton
-                        type: submit
-                      innerHTML: Send
+type: section
+attribute:
+  class: page-section
+  id: contact
+innerHTML:
+  -
+    type: div
+    attribute:
+      class: container
+    innerHTML:
+      -
+        type: h2
+        attribute:
+          class: 'page-section-heading text-center text-uppercase text-secondary mb-0'
+        innerHTML: 'Contact Me'
+      -
+        type: div
+        attribute:
+          class: divider-custom
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: divider-custom-line
+          -
+            type: div
+            attribute:
+              class: divider-custom-icon
+            innerHTML:
+              -
+                type: i
+                attribute:
+                  class: 'fas fa-star'
+          -
+            type: div
+            attribute:
+              class: divider-custom-line
+      -
+        type: div
+        attribute:
+          class: 'row justify-content-center'
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: 'col-lg-8 col-xl-7'
+            innerHTML:
+              -
+                type: form
+                attribute:
+                  id: contactForm
+                  data-sb-form-api-token: API_TOKEN
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'form-floating mb-3'
+                    innerHTML:
+                      -
+                        type: input
+                        attribute:
+                          class: form-control
+                          id: name
+                          type: text
+                          placeholder: 'Enter your name...'
+                          data-sb-validations: required
+                      -
+                        type: label
+                        attribute:
+                          for: name
+                        innerHTML: 'Full name'
+                      -
+                        type: div
+                        attribute:
+                          class: invalid-feedback
+                          data-sb-feedback: 'name:required'
+                        innerHTML: 'A name is required.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'form-floating mb-3'
+                    innerHTML:
+                      -
+                        type: input
+                        attribute:
+                          class: form-control
+                          id: email
+                          type: email
+                          placeholder: name@example.com
+                          data-sb-validations: 'required,email'
+                      -
+                        type: label
+                        attribute:
+                          for: email
+                        innerHTML: 'Email address'
+                      -
+                        type: div
+                        attribute:
+                          class: invalid-feedback
+                          data-sb-feedback: 'email:required'
+                        innerHTML: 'An email is required.'
+                      -
+                        type: div
+                        attribute:
+                          class: invalid-feedback
+                          data-sb-feedback: 'email:email'
+                        innerHTML: 'Email is not valid.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'form-floating mb-3'
+                    innerHTML:
+                      -
+                        type: input
+                        attribute:
+                          class: form-control
+                          id: phone
+                          type: tel
+                          placeholder: '(123) 456-7890'
+                          data-sb-validations: required
+                      -
+                        type: label
+                        attribute:
+                          for: phone
+                        innerHTML: 'Phone number'
+                      -
+                        type: div
+                        attribute:
+                          class: invalid-feedback
+                          data-sb-feedback: 'phone:required'
+                        innerHTML: 'A phone number is required.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'form-floating mb-3'
+                    innerHTML:
+                      -
+                        type: textarea
+                        attribute:
+                          class: form-control
+                          id: message
+                          type: text
+                          placeholder: 'Enter your message here...'
+                          style: 'height: 10rem'
+                          data-sb-validations: required
+                      -
+                        type: label
+                        attribute:
+                          for: message
+                        innerHTML: Message
+                      -
+                        type: div
+                        attribute:
+                          class: invalid-feedback
+                          data-sb-feedback: 'message:required'
+                        innerHTML: 'A message is required.'
+                  -
+                    type: div
+                    attribute:
+                      class: d-none
+                      id: submitSuccessMessage
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'text-center mb-3'
+                        innerHTML: 'To activate this form, sign up at                                    '
+                  -
+                    type: div
+                    attribute:
+                      class: d-none
+                      id: submitErrorMessage
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'text-center text-danger mb-3'
+                        innerHTML: 'Error sending message!'
+                  -
+                    type: button
+                    attribute:
+                      class: 'btn btn-primary btn-xl disabled'
+                      id: submitButton
+                      type: submit
+                    innerHTML: Send
